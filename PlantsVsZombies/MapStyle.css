@@ -1,0 +1,417 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a { 
+    color: inherit;
+    text-decoration: inherit;
+} 
+
+
+
+#contain {
+    width: 100%;
+    margin: -2px;
+    padding: 0;
+    background-image: url('./images/3.jpg');
+}
+
+div {
+    margin: -2px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+#topbar {
+    width: 380px;
+    height: 75px;
+    border: solid #813a1c 5px;
+    background-color: #ec9975;
+    z-index: -1;
+    display: inline-block;
+}
+
+.peashooter,
+.peashooter2,
+.peashooter3,
+.sun,
+.sunflower {
+    width: 70px;
+    height: 75px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 1.25px;
+    z-index: 0;
+}
+
+.peashooter {
+    background-image: url('./images/Cards/peashooter1.jpg');
+}
+
+
+.sun {
+    background-image: url('./images/SunHD.png');
+}
+
+.sunflower {
+    background-image: url('./images/Cards/sunflower-button.jpg');
+
+}
+
+#ZombieTopBar {
+    width: 70px;
+    height: 75px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 5px;
+    border: solid 4px #666633;
+    background-color: #999966;
+    z-index: 0;
+    background-image: url('./images/ZombieHD.png');
+}
+
+#cost {
+    width: 380px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 3.5px;
+    z-index: -1;
+    display: inline-block;
+}
+
+#ZombieCount {
+    width: 88px;
+    display: inline-block;
+    margin-left: 5px;
+    color: darkblue;
+    z-index: 0;
+    font-size: 15px;
+    background-color: burlywood;
+    border: solid 1px black;
+}
+
+.score {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: black;
+    font-size: 7.5pt;
+    width: 42.5px;
+    height: 17.5px;
+    z-index: 0;
+    display: inline-block;
+    margin: 2.5px;
+    border: 0.5px solid rgb(224, 16, 16);
+    background-color: #e8ec9c;
+}
+
+#Map {
+    width: 1300px;
+    display: inline-block;
+}
+
+.house,
+.grass,
+.Zombies {
+    width: 75px;
+    height: 75px;
+    background-image: url('./images/2dcea2bef6d1f58ff0307455b1a48295.jpg');
+    background-size: 75px;
+    display: inline-block;
+    z-index: -1;
+}
+
+.house {
+    background-image: url('./images/2dcea2bef6d1f58ff0307455b1a48295.jpg');
+}
+
+.grass {
+    background-image: url('./images/a4229a483cf76e0b5458450c2e591ff3.jpg');
+
+}
+
+.Zombies {
+    background-image: url('./images/93d1632f36cb12816efcc4ef8f7fa608.jpg');
+}
+
+.zombie1 {
+
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border: solid green 10px;
+    background-image: url('./images/PeashooterHD.png');
+    background-size: 170px;
+    background-color: green;
+    display: inline-block;
+    margin: 5px;
+    z-index: 0;
+}
+
+.peashooterActive1 {
+    position: absolute;
+    left: 0px;
+    width: 25px;
+    top: 17px;
+
+}
+
+.idh1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12.5pt;
+}
+
+.ZombiesSoldier1,
+.ZombiesSoldier2,
+.ZombiesSoldier3,
+.ZombiesSoldier4,
+.ZombiesSoldier5 {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-size: 100% 100%;
+    display: inline-block;
+    z-index: 2;
+}
+
+.ZombiesSoldier1 {
+    background-image: url('./images/Zombie3/0Zombie3.gif');
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.ZombiesSoldier2 {
+    background-image: url('./images/Zombie1/0Zombie1.gif');
+}
+
+.ZombiesSoldier3 {
+    background-image: url('./images/Zombie4/0Zombie4.gif');
+}
+
+.ZombiesSoldier4 {
+    background-image: url('./images/Zombie5/0Zombie5.gif');
+}
+
+.ZombiesSoldier5 {
+    background-image: url('./images/Zombie2/0Zombie2.gif');
+}
+
+
+.peashooter2 {
+    background-image: url('./images/Cards/peashooter2.jpg');
+}
+
+.peashooter3 {
+    background-image: url('./images/Cards/peashooter3.jpg');
+}
+
+#peashooterCost,
+#sunflowerCost,
+#peashooter2Cost,
+#peashooter3Cost {
+    opacity: 0;
+}
+
+/*//our classes//*/
+.StartPage,
+.OptionPage,
+.AdventurePage {
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 95%;
+    border: 3px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    background: url("./images/home.png");
+    background-size: 100% 100%;
+}
+
+.StartPage {
+    background: url("./images/home.png");
+    background-size: 100% 100%;
+}
+
+.OptionPage {
+    background: url("./images/interface/Surface.png");
+    background-size: 100% 100%;
+}
+
+.AdventurePage {
+    background: url("./images/interface/Surface.png");
+    background-size: 100% 100%;
+}
+
+.OurNames {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
+    position: absolute;
+    left: 170px;
+    top: 120px;
+    font-weight: bolder;
+    color: green;
+}
+
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 608px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    background-color: #999966;
+}
+
+#StartClick {
+    position: absolute;
+    left: 225px;
+    top: 530px;
+    background-size: 100% 100%;
+    width: 900px;
+    height: 80px;
+
+}
+
+#game1,
+#game2,
+#game3,
+#game4,
+#game5 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#game1 {
+    left: 770px;
+    top: 100px;
+    width: 325px;
+    height: 95px;
+    transform: rotate(7.5deg);
+}
+
+#game2 {
+    left: 760px;
+    top: 225px;
+    width: 320px;
+    height: 90px;
+    transform: rotate(9deg);
+
+}
+
+#game3 {
+    left: 760px;
+    top: 335px;
+    width: 300px;
+    height: 90px;
+    transform: rotate(9.5deg);
+}
+
+#game4 {
+    left: 950px;
+    top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 20px;
+    color: burlywood;
+}
+
+
+#game5 {
+    left: 1070px;
+    top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 20px;
+    color: burlywood;
+}
+
+#SurvivalMode,
+#AdventureMode,
+#return {
+    color: darkblue;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    width: 350px;
+    position: absolute;
+    text-align: center;
+}
+
+#return {
+    left: -30px;
+}
+
+#AdventureModeTxt1 {
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    color: darkblue;
+    text-align: center;
+    transform: rotate(3deg);
+    border: solid 3px black;
+    background-color: #9999ff;
+    width: 300px;
+    left: 55%;
+    top: 0%;
+}
+
+#AdventureModeTxt {
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    color: darkblue;
+    text-align: center;
+    transform: rotate(7deg);
+    width: 350px;
+    left: 57%;
+    top: 25%;
+}
+
+#AdventureModeTxt2 {
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    color: darkblue;
+    text-align: center;
+    transform: rotate(9deg);
+    width: 320px;
+    left: 57%;
+    top: 50%;
+}
+
+#dialog,#dialogWon {
+    color: darkblue;
+    background-color: #f0d8bc;
+    font-weight: bolder;
+}
+
+
+.LawnRemover {
+    width: 75px;
+    height: 75px;
+    background-image: url('./images/lawn-mower.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: -50px;
+}
+
+/*//our classes//*/

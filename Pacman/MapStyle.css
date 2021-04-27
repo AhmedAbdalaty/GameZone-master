@@ -1,0 +1,236 @@
+body {
+    background-color: black;
+    overflow-y: hidden;
+}
+
+div {
+    margin: -2px;
+}
+
+.top-c{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+.soundOff{
+    background: url('https://icon-library.com/images/mute-icon-png/mute-icon-png-3.jpg');
+    width:  50px;
+    height: 50px;
+    background-size:contain;
+    margin-right: 40%;
+    margin-left: 50px;
+}
+
+.soundOn{
+    background: url('https://findicons.com/files/icons/772/token_light/256/sound.png');
+    width:  50px;
+    height: 50px;
+    background-size:contain;
+    margin-right: 40%;
+    margin-left: 50px;
+}
+
+#Map {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#life {
+    margin-right: 10px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.pacman {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/xosf.gif');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.wall {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/wall.png');
+    display: inline-block;
+}
+
+.coin {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/coin2.jpg');
+    background-size: 50px;
+    display: inline-block;
+}
+
+.empty {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/black.jpg');
+    display: inline-block;
+}
+
+.blinkymob {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/blinky.png');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.clydemob {
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/clyde.png');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.inkymob {
+
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/inky.png');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+.afraidmob {
+
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/af2.gif');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.chain {
+
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/chain.jpg');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+.apple {
+
+    width: 50px;
+    height: 50px;
+    background-image: url('./pic/app.png');
+    background-size: 50px;
+    background-color: black;
+    display: inline-block;
+}
+
+.button {
+    background-color: #022072;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    width: 160px;
+    margin-top: 25%;
+    font-size: 16pt;
+}
+
+.span1 {
+    position: fixed;
+    right: 13%;
+    top: 27%;
+}
+
+
+.idh1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+    font-size: 35pt;
+    margin-left: auto;
+}
+
+.span2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+    margin-top: 7.5%;
+    width: 150px;
+    font-size: 22pt;
+}
+
+.livediv {
+    background-image: url('./pic/6.png');
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 50px;
+    margin-left: 10px;
+    margin-top: 40%;
+    
+}
+.StartDiv{
+    position: fixed;
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    margin: auto;
+    background-color: #506BB3;
+    border: 5px #022072 solid;
+    border-radius: 30px;
+}
+
+
+.outerDiv {
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px #022072 solid;
+    border-radius: 30px;
+    background-color: #506BB3;
+}
+
+.somediv{
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px #022072 solid;
+    border-radius: 30px;
+}
+
+
+
+.gamewonClass {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: red;
+    margin: auto;
+    width: 95%;
+    font-size: 30pt;
+}
+.gameoverClass {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color:red;
+    margin: auto;
+    width: 95%;
+    font-weight: bolder;
+    font-size: 30pt;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Plants vs Zombies</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="MapStyle.css">
+    <script src="jqueryProd.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <div id='contain'>
+        <a href="StartPage.html" id="game4">Main Page</a>
+        <a href="./../intro.html" id="game5">Home</a>
+
+        <div id="topbar">
+            <div class="sun" id="sun"></div>
+            <div class="peashooter draggable" id="peashooter"></div>
+            <div class="peashooter2 draggable" id="peashooter2"></div>
+            <div class="peashooter3 draggable" id="peashooter3"></div>
+            <div class="sunflower draggable" id="sunflower"></div>
+        </div>
+        <div id='ZombieTopBar'></div><br>
+        <div id="cost">
+            <div class="score" id="score">50</div>
+            <div class="score" id="peashooterCost">100</div>
+            <div class="score" id="peashooter2Cost">175</div>
+            <div class="score" id="peashooter3Cost">200</div>
+            <div class="score" id="sunflowerCost">50</div>
+        </div>
+        <div id='ZombieCount'>Zombie = 1000</div>
+
+        <div id="Map">
+        </div>
+    </div>
+    <div id="dialogWon" title="You Won">
+        <p> You have won the game.</p>
+    </div>
+<div id="dialog" title="Game Over">
+    <p>Zombies have conquered your house and you have lost the game.</p>
+</div>
+    <script src="PlantsVsZombies.js"></script>
+</body></html>

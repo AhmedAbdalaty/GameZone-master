@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pac-Man Game</title>
+    <link rel="stylesheet" href="MapStyle.css">
+    <script src="jqueryProd.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+   <span class = 'top-c'>
+        <h1 class="idh1">Pac-Man Game</h1>
+        <span class = 'soundOn' id = 'play-sound'>        
+        </span>
+    </span>
+    
+    <div id="Map"></div>
+
+
+    <div class="outerDiv" id="option">
+        <div class="span2" id="score">Score: 0</div>
+        <div>
+            <button class="button" id="home-btn">Home</button>
+            <button class="button" id="reset-btn">Reset Game</button>
+        </div>
+        <div id="life"></div>
+    </div>
+
+    <div class="outerDiv" id="gamewon">
+        <div class="gamewonClass">Congratulations You Have Won!!<br> Press here to restart </div>
+    </div>
+
+    <div class="outerDiv" id="gameover">
+        <div class="gameoverClass">Game Over</div>
+    </div>
+    <div class="StartDiv" id="gameStart">
+        <p class="gameoverClass">Press Enter To Start !!</p>
+    </div>
+    <script src="project.js"></script>
+
+</body></html>
